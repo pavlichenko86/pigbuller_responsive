@@ -1,0 +1,245 @@
+/*==========WIDTH-320PX=========================*/
+
+@media screen and (min-width:240px){
+
+.categories{
+	display: none;
+}
+
+.categories__fig_pingbull, .categories__fig_er, .categories__fig_copy, .categories__fig_name_first, .categories__fig_name_second{
+	display: none;
+}
+
+
+}
+
+/*======END====WIDTH-320PX=========================*/
+
+
+
+/*==========WIDTH-480PX=========================*/
+
+@media screen and (min-width:480px){
+
+.categories{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	padding: 80px 0 88px;
+	background: #ececec;
+	border-top: 1px solid #d8d8d8;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	
+}
+
+.categories__fig{
+	width: 440px;
+	height: 128px;
+    margin: 58px auto 0;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.categories__fig_first{
+	margin-top: 0;
+}
+
+.categories__fig_a{
+	display: block;
+	margin: -1px 0 0 -2px;
+	font-family: 'LeagueGothic Regular', 'Myriad Pro', sans-serif;
+	color: #454545;
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.categories__fig_figcap{
+	font-family: 'Open Sans Light', 'Arial', sans-serif;
+	color: #787878;
+	font-size: 0.984rem;
+	line-height: 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	margin: 9px 0 0 -1px;
+	hyphens: auto;
+	-ms-hyphens: auto;
+}
+
+.categories__fig_pingbull, .categories__fig_er, .categories__fig_copy, .categories__fig_name_first, .categories__fig_name_second{
+	display: none;
+}
+
+
+
+
+
+}
+
+
+/*======END====WIDTH-480PX=========================*/
+
+
+/*==========WIDTH-768PX=========================*/
+
+
+@media screen and (min-width:768px){
+
+.categories {
+    padding: 44px 0 94px;
+}
+    
+
+.categories__wrap{	
+    overflow: hidden;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.categories__fig {
+    width: 215px;
+    height: 200px;
+    float: left;
+}
+
+.categories__fig_first {
+    margin-top: 58px;
+}
+
+.categories__fig_a {
+    margin: -1px 0 0 0px;
+}
+
+.categories__fig_figcap {
+    margin: 9px 0 0 0px;
+}
+
+.categories__fig_a_second{
+	margin-left: 12px;
+}
+
+.categories__fig_a_third{
+	margin-left: 19px;
+}
+
+.categories__fig_figcap_second{
+	margin-left: 11px;
+}
+
+.categories__fig_figcap_third{
+	margin-left: 19px;
+}
+
+.categories__fig_pingbull, .categories__fig_er, .categories__fig_copy, .categories__fig_name_first, .categories__fig_name_second{
+	display: none;
+}
+
+
+
+}
+
+
+/*======END====WIDTH-768PX=========================*/
+
+
+/*==========WIDTH-960PX=========================*/
+
+
+@media screen and (min-width:960px){
+	
+.categories {
+    padding: 44px 0 90px;
+}
+
+.categories__wrap{
+	width: 960px;
+}
+
+.categories__fig {
+    width: 320px;
+    padding: 0;
+    height: 212px;
+    margin-top: 49px;
+}
+
+.categories__fig_a{
+	display: none;
+}
+
+.categories__fig_pingbull{
+	display: inline-block;
+	font-family: 'LeagueGothic Regular', 'Myriad Pro', sans-serif;
+	color: #454545;
+	font-size: 48px;
+	line-height: 34px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.categories__fig_er{
+	display: inline-block;
+	font-family: 'LeagueGothic Regular', 'Myriad Pro', sans-serif;
+	font-size: 48px;
+	line-height: 34px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: #b9b9b9;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.categories__fig_copy{
+	display: block;
+	font-family: 'Georgia', 'Myriad Pro', sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #b9b9b9;
+	line-height: 24px;
+	margin-top: 14px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.categories__fig_first {
+    margin-top: 40px;
+}
+
+.categories__fig_name_first{
+	display: block;
+	font-family: 'LeagueGothic Regular', 'Myriad Pro', sans-serif;
+	color: #454545;
+	font-size: 30px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin: 5px 0 0 17px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.categories__fig_figcap {
+    margin: 7px 0 0 0px;
+}
+
+.categories__fig_figcap_second {
+    margin: 10px 0 0 17px;
+}
+
+.categories__fig_name_second{
+	display: block;
+	font-family: 'LeagueGothic Regular', 'Myriad Pro', sans-serif;
+	color: #454545;
+	font-size: 30px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin: 5px 0 0 36px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.categories__fig_figcap_third{
+	margin: 9px 0 0 37px;
+}
+
+}
+/*======END====WIDTH-960PX=========================*/

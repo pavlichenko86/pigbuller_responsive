@@ -1,0 +1,250 @@
+/*==========WIDTH-320PX=========================*/
+
+@media screen and (min-width:240px) {
+
+.about{
+	height: 599px;
+	background: rgb(116, 80, 131);
+    background: -moz-linear-gradient(90deg, rgb(116, 80, 131) 0%, rgb(50, 37, 57) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(116, 80, 131) 0%, rgb(50, 37, 57) 100%);
+    background: -o-linear-gradient(90deg, rgb(116, 80, 131) 0%, rgb(50, 37, 57) 100%);
+    background: -ms-linear-gradient(90deg, rgb(116, 80, 131) 0%, rgb(50, 37, 57) 100%);
+    background: linear-gradient(180deg, rgb(116, 80, 131) 0%, rgb(50, 37, 57) 100%);
+    border-top: 1px solid #33253A;
+    border-bottom: 1px solid #33253A;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+-moz-box-shadow:    0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+box-shadow:         0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.about__wrapper{
+	width: 320px;
+	margin: 51px auto 0;
+	overflow: hidden;
+}
+
+.about__wrapper__item{
+	width: 320px;
+	height: 138px;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.about__wrapper__item_third{
+	margin-top: 34px;
+}
+
+.about__wrapper__item_fig{
+	width: 250px;
+	height: 100px;
+	overflow: hidden;
+	margin-left: 82px;
+	font-family: 'LeagueGothic Regular', 'Myriad Pro', sans-serif;
+	color: #FFF;
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.about__wrapper__item_fig_a, .about__wrapper__item_figcap_a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.about__wrapper__item_fig:before{
+	content: "";
+	display: block;
+	width: 31px;
+	height: 31px;
+	background: url(../img/sprite.png) no-repeat 0 0;
+	position: absolute;
+	left: 30px;
+    top: 2px;
+}
+
+.about__wrapper__item_fig_second:before{
+	background: url(../img/sprite.png) no-repeat -32px 0;
+}
+
+.about__wrapper__item_fig_third:before{
+	background: url(../img/sprite.png) no-repeat -64px 0;
+}
+
+.about__wrapper__item_figcap{
+	width: 200px;
+	font-family: 'Open Sans Light', sans-serif;
+	font-size: 16px;
+	text-transform: none;
+	line-height: 24px;
+	margin-top: 3px;
+}
+
+.about__wrapper__item__read{
+	width: 65px;
+	margin: 12px 16px 0 0;
+	float: right;
+}
+
+.about__wrapper__item__read_a{
+	display: block;
+	font-family: 'LeagueGothic Regular', 'Myriad Pro', sans-serif;
+	color: #FFF;
+	font-size: 18px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.about__wrapper__item__read_a:hover{
+	text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+}
+
+}
+
+/*======END====WIDTH-320PX=========================*/
+
+
+
+/*==========WIDTH-480PX=========================*/
+
+@media screen and (min-width:480px){
+	
+
+.about__wrapper{
+	width: 480px;
+	margin: 57px auto 0;
+}
+
+.about__wrapper__item{
+	width: 480px;
+}
+
+.about__wrapper__item_third {
+    margin-top: 22px;
+}
+
+.about__wrapper__item_fig {
+    width: 380px;
+}
+
+.about__wrapper__item_figcap {
+    width: 380px;
+    margin-left: 2px;
+    hyphens: auto;
+}
+
+
+
+
+}
+
+
+/*======END====WIDTH-480PX=========================*/
+
+
+/*==========WIDTH-768PX=========================*/
+
+
+@media screen and (min-width:768px){
+	
+.about{
+	height: 343px;
+}
+
+.about__wrapper {
+    width: 768px;
+}
+
+.about__wrapper__item {
+    width: 253px;
+    height: 242px;
+    float: left;
+}
+
+.about__wrapper__item_fig{
+	width: 204px;
+    height: 204px;
+}
+
+.about__wrapper__item_figcap{
+	width: 178px;
+    height: 143px;
+    overflow: hidden;
+}
+
+.about__wrapper__item__read {
+    margin: -28px 13px 0 0;
+}
+
+.about__wrapper__item_third {
+    margin-top: 20px;
+}
+
+.about__wrapper__item_fig_third{
+	margin-left: 90px;
+}
+
+.about__wrapper__item__read_third{
+	margin: -28px 7px 0 0;
+}
+
+
+
+
+
+
+}
+
+/*======END====WIDTH-768PX=========================*/
+
+
+/*==========WIDTH-960PX=========================*/
+
+
+@media screen and (min-width:960px){
+	
+.about__wrapper {
+    width: 960px;
+}
+
+.about__wrapper__item{
+	width: 340px;
+}
+
+.about__wrapper__item_fig{
+	width: 256px;
+	margin-left: 59px;
+	font-size: 30px;
+	margin: 1px 0 0 62px;
+}
+
+.about__wrapper__item_figcap{
+	width: 260px;
+	margin: 12px 0 0 0;
+}
+
+.about__wrapper__item_fig:before {
+    left: 9px;
+    top: 5px;
+}
+
+.about__wrapper__item_third{
+	width: 280px;
+	margin-left: -2px;
+}
+
+.about__wrapper__item__read {
+    margin: -31px 53px 0 0;
+}
+
+.about__wrapper__item__read_third {
+    margin: -31px -7px 0 0;
+}
+
+}
+/*======END====WIDTH-960PX=========================*/
